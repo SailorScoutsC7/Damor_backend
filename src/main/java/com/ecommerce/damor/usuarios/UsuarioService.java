@@ -34,7 +34,10 @@ public class UsuarioService {
 			}//if
 		}//foreach
 		}//deleteProducto
-	
+	public void addUsuario(Usuario usuario) {
+		registro_usuarios.add(usuario);
+		
+	}
 	
 	}
 	

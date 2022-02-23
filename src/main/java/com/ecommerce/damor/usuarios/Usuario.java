@@ -59,6 +59,9 @@ public String toString() {
 			+ ", contraseña=" + contraseña + "]";
 }
 
- 
+ public Usuario() {
+	 super();
+	 
+ }
  
 }
